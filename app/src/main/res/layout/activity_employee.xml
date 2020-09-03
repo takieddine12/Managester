@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/final_background"
+    android:orientation="vertical"
+    tools:context=".employee.EmployeeLoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/managester_logo"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/employeeLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/email_icon"
+        android:ems="10"
+        android:fontFamily="@font/semibold"
+        android:hint="   Email"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="14dp"
+        android:textColorHint="#B2BEC3"
+        android:textSize="26dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/employeeLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/password_icon"
+        android:ems="10"
+        android:fontFamily="@font/semibold"
+        android:hint="   Password"
+        android:inputType="textPassword"
+        android:textColorHint="#B2BEC3"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/employeeLoginBtn"
+        android:layout_width="196dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bold"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/employeeForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:fontFamily="@font/semibold"
+        android:text="Forget Password?"
+        android:textColor="#0984E3"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:id="@+id/newId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new account?"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employeeCreateNewAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/semibold"
+            android:text="Register"
+            android:textColor="#0984E3"
+            android:textSize="24sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

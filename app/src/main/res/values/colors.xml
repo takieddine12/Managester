@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DFDEF4</color>
+    <color name="colorPrimaryDark">#A29BFE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="drawer_bg">#A29BFE</color>
+    <color name="drawer_font">#ffffff</color>
+    <color name="gris_font">#707070</color>
+    <color name="blue_login">#0984E3</color>
+
+
+
+    <color name="buttonColor">#A29BFE</color>
+</resources>

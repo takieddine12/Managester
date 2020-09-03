@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175129557547",
+    "firebase_url": "https://managester-ff2b6.firebaseio.com",
+    "project_id": "managester-ff2b6",
+    "storage_bucket": "managester-ff2b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175129557547:android:f7faa00a0f49828b3bc86e",
+        "android_client_info": {
+          "package_name": "com.manager.managester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175129557547-ev19q8j024vp2vtaubd8if194n5vrcet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByYYA9-ac9dEBTLgyfJyAlFZhbpqn8txw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175129557547-ev19q8j024vp2vtaubd8if194n5vrcet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
