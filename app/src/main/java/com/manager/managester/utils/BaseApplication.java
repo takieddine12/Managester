@@ -1,13 +1,10 @@
-package com.manager.utils;
+package com.manager.managester.utils;
 
 import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
-import android.net.Uri;
 import android.os.Build;
-
-import androidx.core.app.NotificationManagerCompat;
 
 import timber.log.Timber;
 

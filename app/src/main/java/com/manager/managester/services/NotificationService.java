@@ -1,4 +1,4 @@
-package com.manager.services;
+package com.manager.managester.services;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -23,7 +23,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.manager.utils.BaseApplication.CHANNEL_ID;
+import static com.manager.managester.utils.BaseApplication.CHANNEL_ID;
 
 public class NotificationService extends Service {
     private DatabaseReference databaseReference;

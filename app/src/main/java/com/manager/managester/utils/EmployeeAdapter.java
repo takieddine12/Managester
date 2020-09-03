@@ -1,4 +1,4 @@
-package com.manager.utils;
+package com.manager.managester.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;

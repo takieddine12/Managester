@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.manager.utils.EmployeeAdapter;
+import com.manager.managester.utils.EmployeeAdapter;
 import com.manager.managester.databinding.FragmentHomeBinding;
 import com.manager.managester.employee.employeemodel.ProductsModel;
 
